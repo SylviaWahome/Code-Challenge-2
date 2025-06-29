@@ -2,20 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Guest List Manager</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <main class="container">
     <h1>Event Guest List</h1>
+
+    <!-- ===== Form ===== -->
     <form id="guest-form">
-      <input id="guest-input" type="text" placeholder="Enter guest name" required />
+      <input
+        id="guest-input"
+        type="text"
+        placeholder="Enter guest name"
+        autocomplete="off"
+        required
+      />
+
+      <select id="category-select">
+        <option value="Friend">Friend</option>
+        <option value="Family">Family</option>
+        <option value="Colleague">Colleague</option>
+      </select>
+
       <button type="submit">Add Guest</button>
     </form>
+
     <p id="counter">0 / 10 spots taken</p>
+
+    <!-- ===== Guest list ===== -->
     <ul id="guest-list"></ul>
   </main>
+
   <script type="module" src="src/index.js"></script>
 </body>
 </html>

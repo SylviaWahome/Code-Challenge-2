@@ -1,23 +1,23 @@
 # Event Guest List Manager
 
-A simple JavaScript project that lets users:
+A small front‑end application (HTML + CSS + vanilla JS) for managing an event’s guest list without reloading the page.
 
-- Add guest names via a form
-- Toggle each guest's RSVP status ("Attending" or "Not Attending")
-- Remove guests from the list
-- Enforce a guest limit of 10
+## ✨ Features
 
-## Features
+| Core / Stretch       | Status |
+|----------------------|:------:|
+| Add guest via form   | ✅ |
+| Delete guest         | ✅ |
+| Toggle RSVP (Attending / Not) | ✅ |
+| Guest limit (max 10) | ✅ |
+| **Category tags** (Friend / Family / Colleague) | ✅ |
+| **Timestamp** when guest added | ✅ |
+| **Edit guest name**  | ✅ |
 
-✅ Add guest  
-✅ Remove guest  
-✅ Toggle RSVP status  
-✅ Enforce guest limit (10 max)  
-✅ Display real-time guest count
+## 🚀 Getting Started
 
-## Getting Started
+1. **Clone & open**
 
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/SylviaWahome/Code-Challenge-2.git
-   cd Code-Challenge-2
+```bash
+git clone https://github.com/SylviaWahome/Code-Challenge-2.git
+cd Code-Challenge-2
